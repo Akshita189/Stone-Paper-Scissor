@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stone Paper Scissor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="heading">
+      <h1>Stone Paper Scissor</h1>
+    </div>
+    <div class="game">
+      <div class="comp-move">
+        <p>Play a move</p>
+      </div>
+      <div class="score-board">
+        <p id="score"></p>
+      </div>
+      <div class="result hide">
+        <p></p>
+      </div>
+      <div class="move">
+        <button class="myMove" data-moveplayed="stone"><img src="rock.png" alt="Stone"></button>
+        <button class="myMove" data-moveplayed="paper"><img src="paper.png" alt="Paper"></button>
+        <button class="myMove" data-moveplayed="scissor"><img src="scissors.png" alt="Scissor"></button>
+      </div>
+      <div class="reset">
+        <button id="reset-btn">Reset Game</button>
+      </div>
+    </div>
+  </main>
+  <script src="sps.js"></script>
+</body>
+</html>

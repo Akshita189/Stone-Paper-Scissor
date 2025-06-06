@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  background-color: bisque;
+  overflow: hidden;
+  width:100vw;
+}
+
+.heading{
+  height:12vh;
+  padding:2%;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: brown;
+  color: white;
+}
+
+.game{
+  height:80vh;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:6vh;
+}
+
+.comp-move{
+  height:8vh;
+  font-size: 1.35rem;
+  font-weight:600;
+}
+
+.score-board{
+  height:8vh;
+  font-size: 2rem;
+}
+
+.result{
+  display: flex;
+  align-items: center;
+  height:8vh;
+  padding:3px;
+  text-align: center;
+  font-size: 1.35rem;
+  border-radius: 3%;
+}
+
+.move{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap:10%;
+}
+
+.myMove{
+  border-radius:5%;
+  background: transparent;
+  border:none;
+}
+
+.myMove img{
+  width: clamp(90px, 10vw, 200px);
+  height: clamp(90px, 10vw, 200px);
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.myMove img:hover{
+  border:5px solid brown;
+}
+
+#reset-btn{
+  border:none;
+  height:5vh;
+  padding:5px;
+  background-color: brown;
+  color:bisque;
+  border-radius:12px;
+  font-weight: 700;
+  font-size:1.15rem;
+}
+
+.hide{
+  display:none;
+}
